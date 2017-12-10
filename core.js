@@ -1,4 +1,7 @@
 var box = document.getElementById('display');
+var pr = document.getElementById('prompt');
+var p = prompt('Enter your name here please: ');
+pr.value = p;
 
 
 function addtoscreen(x){
